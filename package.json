@@ -1,0 +1,14 @@
+{
+  "name": "tspathtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc -p scripts/",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node ./scripts/lib/scripts/test.js"
+  },
+  "author": "",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  }
+}
